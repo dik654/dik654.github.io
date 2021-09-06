@@ -4,13 +4,17 @@ title: "마크다운언어로 블로그 사용해보기"
 
 last_modified_at: 2021-09-06T20:05:02-05:00
 
-categories: 여러가지
+categories:
+
+​	- 여러가지
 
 tags:
 
- 	- MARKDOWN
+​	- MARKDOWN
 
--
+---
+
+
 
 #마크다운 문법을 이용하여 블로깅을 해보자
 
