@@ -1,3 +1,17 @@
+---
+
+title: "마크다운언어로 블로그 사용해보기"
+
+last_modified_at: 2021-09-06T20:05:02-05:00
+
+categories: 여러가지
+
+tags:
+
+ 	- MARKDOWN
+
+-
+
 #마크다운 문법을 이용하여 블로깅을 해보자
 
 마크다운 문법을 그대로 보여주고 싶다면 \을 문법 앞에 쓰면 된다.
@@ -41,9 +55,7 @@
 
 [링크][https://www.naver.com]
 
-\[링크이름]\[링크URL]로 사용하고
-
-
+\[링크이름]\[링크URL]로 사용하고	
 
 \[링크이름][참조]
 
@@ -53,7 +65,7 @@
 
 이미지를 넣고싶을 땐
 
-\!\[이미지이름]\[이미지주소]로 이미지를 넣습니다.
+\!\[이미지이름]\(이미지주소)로 이미지를 넣습니다.
 
-![이미지][https://lh3.googleusercontent.com/proxy/VEMhZ5I5ltF9jFaLCgtevkXCvDXBBsSkAcdBRJySIEYKcmqs2-phHvkek2F4rT0k6tU5b5bohPx572SjJrtgTsHUqEzjqNEd8ro4O_ihUqbECj7RbfRas0RTeQ6ox5qtEmt1OVagZWPBrg9cHE7D0DkvNaI_FTbnmtdbvjxpYWyMa-ug]
+![이미지](https://pbs.twimg.com/media/EU6FCp1UMAQUBwW.jpg)
 
