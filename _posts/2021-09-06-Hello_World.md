@@ -1,10 +1,59 @@
-*---*
-*title: “블로그 실행 확인”*
-*categories:*
-*- blogging*
-*last_modified_at: 2020-01-14T14:00:00+09:00*
-*toc: true*
+#마크다운 문법을 이용하여 블로깅을 해보자
 
-*---*
+마크다운 문법을 그대로 보여주고 싶다면 \을 문법 앞에 쓰면 된다.
 
-Hello World!
+문장 앞에 \#을 쓰게 되면 HTML의 <h1~6> 태그처럼 글씨 크기를 조절하여 제목을 쓸 수 있다. (1이 가장 크다)
+
+\*을 이용하면 글씨 *기울기*, **굵기**, ***동시***에 적용이 가능하다. 원하는 위치 앞 뒤로 *을 1~3개 붙이면 된다.
+
+~~취소선~~을 쓰고싶다면, 원하는 위치 앞 뒤로 \~~를 붙이면 된다.
+
+\>을 문장 앞에 쓰면 인용문을 쓸 수 있다.
+
+> 인용문은
+>
+> > 이렇게
+> >
+> > > 사용합니다.
+
+
+
+리스트를 사용하고 싶다면
+
+(\*+공백)을 앞에 써줍니다.
+
+* 리스트는
+* 이렇게
+* 사용합니다.
+  1.  \1.을 쓰게되면 
+  2. 숫자리스트를
+  3. 사용할 수 있습니다.
+
+
+
+```javascript
+코드를 쓰고싶을 땐 \```을 쓰면 됩니다.
+```
+
+
+
+링크를 걸고 싶다면
+
+[링크][https://www.naver.com]
+
+\[링크이름]\[링크URL]로 사용하고
+
+
+
+\[링크이름][참조]
+
+\[참조]:\[링크URL]로 사용 가능합니다.
+
+
+
+이미지를 넣고싶을 땐
+
+\!\[이미지이름]\[이미지주소]로 이미지를 넣습니다.
+
+![이미지][https://lh3.googleusercontent.com/proxy/VEMhZ5I5ltF9jFaLCgtevkXCvDXBBsSkAcdBRJySIEYKcmqs2-phHvkek2F4rT0k6tU5b5bohPx572SjJrtgTsHUqEzjqNEd8ro4O_ihUqbECj7RbfRas0RTeQ6ox5qtEmt1OVagZWPBrg9cHE7D0DkvNaI_FTbnmtdbvjxpYWyMa-ug]
+
